@@ -97,6 +97,18 @@
     <Compile Include="FrmCompany.Designer.cs">
       <DependentUpon>FrmCompany.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContact.Designer.cs">
+      <DependentUpon>FrmContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMajor.Designer.cs">
+      <DependentUpon>FrmMajor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +155,12 @@
     <EmbeddedResource Include="FrmCompany.resx">
       <DependentUpon>FrmCompany.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmContact.resx">
+      <DependentUpon>FrmContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMajor.resx">
+      <DependentUpon>FrmMajor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmStudent.resx">
       <DependentUpon>FrmStudent.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +198,8 @@
     <None Include="Properties\DataSources\Proyecto_Ordinario.Entidades.Adviser.datasource" />
     <None Include="Properties\DataSources\Proyecto_Ordinario.Entidades.Coach.datasource" />
     <None Include="Properties\DataSources\Proyecto_Ordinario.Entidades.Company.datasource" />
+    <None Include="Properties\DataSources\Proyecto_Ordinario.Entidades.Contact.datasource" />
+    <None Include="Properties\DataSources\Proyecto_Ordinario.Entidades.Major.datasource" />
     <None Include="Properties\DataSources\Proyecto_Ordinario.Entidades.Student.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
