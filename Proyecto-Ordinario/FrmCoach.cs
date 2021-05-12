@@ -52,10 +52,8 @@ namespace Proyecto_Ordinario
         private void btnEdit_Click(object sender, EventArgs e)
         {
             pnlDatos.Enabled = true;
-            pctPhoto.Image = null;
-            coachBindingSource.Add(new Coach());
-            coachBindingSource.MoveLast();
             txtFirstName.Focus();
+            Coach coach = coachBindingSource.Current as Coach;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
