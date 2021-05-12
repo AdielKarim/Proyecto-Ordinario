@@ -16,7 +16,7 @@ namespace Proyecto_Ordinario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCoach());
+            Application.Run(new FrmStudent());
         }
     }
 }
